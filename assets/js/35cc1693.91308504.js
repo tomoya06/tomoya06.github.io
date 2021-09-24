@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[740],{9045:function(e){e.exports=JSON.parse('{"name":"Electron","permalink":"/docs/tags/electron","docs":[{"id":"note/electron-basic","title":"Electron\u57fa\u7840","description":"\u6536\u96c6Electron\u7684\u5e38\u89c1\u95ee\u9898","permalink":"/docs/note/electron-basic"}],"allTagsPath":"/docs/tags"}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[8165],{9735:function(s){s.exports=JSON.parse('{"name":"\u8bfe\u5916","permalink":"/docs/tags/\u8bfe\u5916","docs":[{"id":"note/solidity","title":"Solidity \u8bed\u6cd5\u5b66\u4e60\u7b14\u8bb0","description":"Solidity\u8bed\u6cd5","permalink":"/docs/note/solidity"}],"allTagsPath":"/docs/tags"}')}}]);

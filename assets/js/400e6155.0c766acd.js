@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[1732],{4804:function(s){s.exports=JSON.parse('{"name":"\u540e\u53f0","permalink":"/docs/tags/\u540e\u53f0","docs":[{"id":"note/hbase-basic","title":"HBase \u5165\u95e8","description":"\u7b80\u4ecb","permalink":"/docs/note/hbase-basic"}],"allTagsPath":"/docs/tags"}')}}]);
