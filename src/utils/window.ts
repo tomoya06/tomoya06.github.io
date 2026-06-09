@@ -1,5 +1,3 @@
-import { useMediaQuery } from "react-responsive";
-
 export const inIframe = () => {
   try {
     return window.self !== window.top;
@@ -20,8 +18,4 @@ export const isDev =
 
 export const isPortrait = () => {
   return window.innerWidth < 480;
-};
-
-export const useMobile = () => {
-  return useMediaQuery({ query: "(max-width: 480px)" });
 };
