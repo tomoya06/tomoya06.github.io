@@ -54,7 +54,7 @@ export default class Computer extends ModelSection {
     this.browserContainer.className = "on";
     setTimeout(() => {
       this.browserIframe.className = "on";
-      this.browserIframe.contentWindow?.postMessage(MessageName.PowerON);
+      this.browserIframe.contentWindow?.postMessage(MessageName.PowerON, "*");
     }, 500);
   }
 }

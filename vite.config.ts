@@ -16,14 +16,12 @@ export default ({ mode }) => {
     resolve: {
       alias: {
         "@": resolve(__dirname, "./src"),
-        "@pages": resolve(__dirname, "./pages"),
       },
     },
     build: {
       rollupOptions: {
         input: {
           main: resolve(__dirname, "index.html"),
-          win9: resolve(__dirname, "pages/win9/index.html"),
         },
         plugins: [visualizer()],
       },

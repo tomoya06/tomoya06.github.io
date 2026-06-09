@@ -287,7 +287,8 @@ class App {
     window.addEventListener("message", (evt) => {
       if (evt.data === MessageName.PowerOFF) {
         this.computer.browserIframe.contentWindow?.postMessage(
-          MessageName.PowerOFF
+          MessageName.PowerOFF,
+          "*"
         );
         this.stateMachine.status = EnumStatus.AtComputer;
       }
