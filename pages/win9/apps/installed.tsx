@@ -242,7 +242,7 @@ export const installedApps: AppApp[] = (() => {
     ...aiThisRepo,
     content: (
       <AppOutside
-        url="https://github.com/tomoya06/myroom"
+        url="https://github.com/tomoya06/tomoya06.github.io"
         appInfo={aiThisRepo}
       />
     ),

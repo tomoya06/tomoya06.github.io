@@ -14,8 +14,8 @@ const AppSettings: React.FC<AppContainerProps> = (props) => {
 
         <h1>Repository</h1>
         <div>
-          <a href="https://github.com/tomoya06/myroom">
-            github.com/tomoya06/myroom
+          <a href="https://github.com/tomoya06/tomoya06.github.io">
+            github.com/tomoya06/tomoya06.github.io
           </a>
         </div>
 
@@ -52,11 +52,11 @@ const AppSettings: React.FC<AppContainerProps> = (props) => {
         <h1></h1>
         <div>
           This system is isolated to{" "}
-          <a href="/myroom/" target="_blank">
+          <a href="/" target="_blank">
             Project MyRoom
           </a>
           . You can experience it{" "}
-          <a href="/myroom/pages/win9/index.html" target="_blank">
+          <a href="/pages/win9/index.html" target="_blank">
             here indenpendently
           </a>
         </div>
