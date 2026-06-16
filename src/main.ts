@@ -7,7 +7,7 @@ import { CtrlState, genCtrlState, ThreeBundle } from "./interface.d";
 import Chair from "./components/Chair";
 import Switch from "./components/Switch";
 import Computer from "./components/Computer";
-import { InteractionManager } from "three.interactive";
+import { InteractionManager, InteractionManagerOptions } from "three.interactive";
 import StateMachine, { EnumStatus } from "./StateMachine";
 import { isPortrait, MessageName } from "./utils/window";
 import Cabinets from "./components/Cabinets";
@@ -106,7 +106,7 @@ class App {
           this.renderer,
           this.camera,
           this.renderer.domElement,
-          true
+          new InteractionManagerOptions({ autoAdd: true })
         );
 
         this.modelEntry();
